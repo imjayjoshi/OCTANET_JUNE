@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="title" content="HomeHeaven" />
+    <meta name="description" content="HomeHeaven - House of Your Dreams">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeHeaven</title>
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Bootstrap link -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+    <!-- Box-icon link -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,600;1,600&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div id="main">
+        <nav class="navbar">
+            <img src="assets/images/logo.png" alt="HomeHeaven" />
+            <input type="checkbox" id="toggler">
+            <label for="toggler"><span class="fas fa-bars"></span></label>
+            <div class="menu">
+                <ul class="list">
+                    <li><a href="#home">Home</a></li>
+                    <li>
+                        <a href="#carousel-container">Featured</a>
+                    </li>
+                    <li>
+                        <a href="#steps-container">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#agent-container">Explore</a>
+                    </li>
+                    <li>
+                        <a href="#footer">Contact</a>
+                    </li>
+                    <button>Get Started</button>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Home Section -->
+        <div id="home">
+            <div class="left">
+                <h1 class="home-title">Smart Real Estate,<br>Dreams Come True</h1>
+                <p class="home-p">
+                    Residence is a service to manage your property on one platform.
+                    Provides valuation, Sell, Buy, Mortgage & <br />others real estate
+                    services worldwide.
+                </p>
+                <button>Learn More</button>
+            </div>
+
+            <div class="right">
+                <img src="assets/images/home.jpg" alt="Beautiful House" />
+            </div>
+        </div>
+
+        <!-- catalog -->
+        <div id="catalog">
+            <div class="catalog-item">
+                <i class="fas fa-home"></i>
+                <select>
+                    <option>Rent/Buy</option>
+                    <option>Rent</option>
+                    <option>Buy</option>
+                    <option>Sell</option>
+                </select>
+            </div>
+            <div class="catalog-item">
+                <i class="fas fa-building"></i>
+                <select>
+                    <option>House</option>
+                    <option>Apartment</option>
+                    <option>Villa</option>
+                </select>
+            </div>
+            <div class="catalog-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <select>
+                    <option>Andheri, Mumbai</option>
+                    <option>Dadar, Mumbai</option>
+                    <option>Bandra, Mumbai</option>
+                </select>
+            </div>
+            <div class="catalog-item">
+                <button>Find Property</button>
+            </div>
+        </div>
+
+        <!-- Featured Section -->
+        <div id="carousel-container">
+            <h1 class="carousel-title">Featured Homes</h1>
+            <div class="owl-carousel owl-theme">
+                <div class="item carousel-item">
+                    <img src="https://images.unsplash.com/photo-1567767292278-a4f21aa2d36e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGxpdmluZyUyMHJvb218ZW58MHx8MHx8fDA%3D"
+                        alt="" />
+                    <div class="carousel-caption">
+                        <h3>4 BHK House 1600 sqft</h3>
+                        <p>$700/month</p>
+                        <p>855, Andheri, Mumbai</p>
+                    </div>
+                </div>
+                <div class="item carousel-item">
+                    <img src="https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGxpdmluZyUyMHJvb218ZW58MHx8MHx8fDA%3D"
+                        alt="" />
+                    <div class="carousel-caption">
+                        <h3>3 BHK House 1800 sqft</h3>
+                        <p>$900/month</p>
+                        <p>521, Bandra, Mumbai</p>
+                    </div>
+                </div>
+                <div class="item carousel-item">
+                    <img src="https://images.unsplash.com/photo-1554995207-c18c203602cb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fGxpdmluZyUyMHJvb218ZW58MHx8MHx8fDA%3D"
+                        alt="" />
+                    <div class="carousel-caption">
+                        <h3>2 BHK House 1400 sqft</h3>
+                        <p>$650/month</p>
+                        <p>523, Dadar, Mumbai</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Steps Section -->
+        <div id="steps-container">
+            <h1>We Follow 3 Steps</h1>
+            <p>Expert guides to findning your perfect fit</p>
+            <div class="steps">
+                <div class="step">
+                    <img src="assets/images/steps/Evaluate.png" alt="Evaluate" />
+                    <h3>Evaluate Property</h3>
+                    <p>Evaluated is very important your property buy and sell</p>
+                </div>
+                <div class="step">
+                    <img src="assets/images/steps/agent.png" alt="Agent" />
+                    <h3>Meet your agent</h3>
+                    <p>We are help to you get your best agent for discuss</p>
+                </div>
+                <div class="step">
+                    <img src="assets/images/steps/deal.png" alt="Deal" />
+                    <h3>Close the deal</h3>
+                    <p>Get to connect with us make your close the deal</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Choose us? Section -->
+        <div id="choose-container">
+            <video autoplay loop muted src="./assets/images/room.mp4">
+            </video>
+            <div class="choose">
+                <h1>Why Choose Us?</h1>
+                <p>Experience exceptional service with unbeatable property insurance, tax advantages, and the lowest
+                    commission rates</p>
+                <div class="choose-items">
+                    <div class="choose-item">
+                        <div class="choose-icon">
+                            <img src="./assets/images/steps/Insurance.png" alt="Insurance">
+                        </div>
+                        <div class="choose-text">
+                            <h3>Property Insurance</h3>
+                            <p>Secure your investment with comprehensive property insurance</p>
+                        </div>
+                    </div>
+                    <div class="choose-item">
+                        <div class="choose-icon">
+                            <img src="assets/images/steps/Advantage.png" alt="Advantage">
+                        </div>
+                        <div class="choose-text">
+                            <h3>Tax Advantage</h3>
+                            <p>Maximize your savings with our tax-advantaged property solutions</p>
+                        </div>
+                    </div>
+                    <div class="choose-item">
+                        <div class="choose-icon">
+                            <img src="assets/images/steps/Comission.png" alt="Comission">
+                        </div>
+                        <div class="choose-text">
+                            <h3>Lowest Commission</h3>
+                            <p>Benefit from the lowest commission rates in the market</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Connected Top Agent Section -->
+        <div id="agent-container">
+            <h1>Get Connected with Top Agent</h1>
+            <p>Connect with top agents to find your perfect property</p>
+            <div class="agent-carousel">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="agent-slider-area text-center owl-carousel owl-theme">
+                            <div class="agent-item">
+                                <img src="assets/images/agents/agent.jpg" alt="agent1" />
+                                <div class="agent-caption">
+                                    <h3>James Anderson</h3>
+                                    <p>Expertise in luxury properties</p>
+                                </div>
+                            </div>
+                            <div class="agent-item">
+                                <img src="assets/images/agents/agent2.jpg" alt="agent2" />
+                                <div class="agent-caption">
+                                    <h3>Emily Johnson</h3>
+                                    <p>Specialist in commercial estate</p>
+                                </div>
+                            </div>
+                            <div class="agent-item">
+                                <img src="assets/images/agents/agent3.jpg" alt="agent3" />
+                                <div class="agent-caption">
+                                    <h3>Michael Thompson</h3>
+                                    <p>Residential property expert</p>
+                                </div>
+                            </div>
+                            <div class="agent-item">
+                                <img src="assets/images/agents/agent4.jpg" alt="agent4" />
+                                <div class="agent-caption">
+                                    <h3>David Harris</h3>
+                                    <p>Investment property specialist</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimoniols Section -->
+        <div id="testimonial-container">
+            <h1>What Clients Says</h1>
+            <div class="owl-carousel owl-theme testimonial">
+
+                <!-- Testimonial 1 -->
+                <div class="item testimonial-card">
+                    <div class="test-item">
+                        <div class="test">
+                            <i class="fa fa-quote-left"></i>
+                            <h3>Exceptional Customer Service!</h3>
+                        </div>
+                        <p>I was thoroughly impressed with the level of service I received. The staff were friendly and
+                            went above and beyond to ensure satisfied.
+                        </p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="profile">
+                        <div class="profile-image">
+                            <img src="assets/images/testimonials/testimonial-2.jpg" alt="">
+                        </div>
+                        <div class="profile-desc">
+                            <span>Alex Turner</span>
+                            <span>New York, USA</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="item testimonial-card">
+                    <div class="test-item">
+                        <div class="test">
+                            <i class="fa fa-quote-left"></i>
+                            <h3>Highly Recommend!</h3>
+                        </div>
+                        <p>The quality of the product exceeded my expectations. I will definitely be returning for
+                            future purchases. Thank you for experience!</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="profile">
+                        <div class="profile-image">
+                            <img src="assets/images/testimonials/team-2.jpg" alt="">
+                        </div>
+                        <div class="profile-desc">
+                            <span>Maria Garcia</span>
+                            <span>Madrid, Spain</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="item testimonial-card">
+                    <div class="test-item">
+                        <div class="test">
+                            <i class="fa fa-quote-left"></i>
+                            <h3>Outstanding Experience</h3>
+                        </div>
+                        <p> From start to finish, the process was smooth and efficient. The team was very professional
+                            and attentive to my needs.</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="profile">
+                        <div class="profile-image">
+                            <img src="assets/images/testimonials/testimonial-3.jpg" alt="">
+                        </div>
+                        <div class="profile-desc">
+                            <span>Michael Johnson</span>
+                            <span>Sydney, Australia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="item testimonial-card">
+                    <div class="test-item">
+                        <div class="test">
+                            <i class="fa fa-quote-left"></i>
+                            <h3>Amazing Service</h3>
+                        </div>
+                        <p>The attention to detail and customer care was superb. I felt valued as a customer and will
+                            recommend this service to my friends.</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="profile">
+                        <div class="profile-image">
+                            <img src="assets/images/testimonials/testimonial-4.jpg" alt="">
+                        </div>
+                        <div class="profile-desc">
+                            <span>Emily Davis</span>
+                            <span>Toronto, Canada</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 5 -->
+                <div class="item testimonial-card">
+                    <div class="test-item">
+                        <div class="test">
+                            <i class="fa fa-quote-left"></i>
+                            <h3>Will Use Again!</h3>
+                        </div>
+                        <p>I had a wonderful experience. The staff were knowledgeable and provided great advice, making
+                            the whole process very enjoyable.</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="profile">
+                        <div class="profile-image">
+                            <img src="assets/images/testimonials/testimonial-5.jpg" alt="">
+                        </div>
+                        <div class="profile-desc">
+                            <span>David Brown</span>
+                            <span>London, UK</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 6 -->
+                <div class="item testimonial-card">
+                    <div class="test-item">
+                        <div class="test">
+                            <i class="fa fa-quote-left"></i>
+                            <h3>Five Stars!</h3>
+                        </div>
+                        <p>Excellent service from a friendly and professional team. They really care about their
+                            customers and it shows in their work.</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="profile">
+                        <div class="profile-image">
+                            <img src="assets/images/testimonials/testimonial-6.jpg" alt="">
+                        </div>
+                        <div class="profile-desc">
+                            <span>Sarah Wilson</span>
+                            <span>Los Angeles, USA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Section -->
+        <div id="footer" class="footer-container">
+            <div class="footer-set">
+                <h1>Subscribe Our Newsletter</h1>
+                <div class="footer-form">
+                    <input type="text" placeholder="Enter Your Email">
+                    <button>Send</button>
+                </div>
+            </div>
+            <div class="all-details">
+                <div class="footer-details">
+                    <div class="details">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li><a href="#catalog">Find Property</a></li>
+                            <li><a href="#catalog">Sell Property</a></li>
+                            <li><a href="#agent-container">Get Agent</a></li>
+                            <li><a href="#choose-container">Listing</a></li>
+                            <li><a href="#carousel-container">Categories</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="details">
+                        <h3>Company</h3>
+                        <ul>
+                            <li><a href="#steps-container">About Us</a></li>
+                            <li><a href="#">How it Works</a></li>
+                            <li><a href="#footer">Contact Us</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="details">
+                        <h3>Terms</h3>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Copyright Policy</a></li>
+                            <li><a href="#">Security</a></li>
+                            <li><a href="#">Fees and Charges</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="details">
+                        <img src="assets/images/logo.png" alt="logo">
+                        <p>56 West, 46 Street, <br> Andheri, Mumbai.</p><br>
+                        <div class="contact-info">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>hrhomeheaven@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="social">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <p>Copyright © 2023. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="assets/js/script.js" defer></script>
+</body>
+
+</html>
