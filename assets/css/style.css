@@ -36,18 +36,18 @@ body {
 }
 
 /* Nav Section */
-.navbar {
+#navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1rem 2rem;
   width: 100%;
   position: relative;
-  top: 0;
   z-index: 1000;
+  transition: background-color 0.3s;
 }
 
-.navbar .logo {
+#navbar .logo {
   height: 40px;
 }
 
@@ -80,7 +80,7 @@ body {
   display: none;
 }
 
-.navbar label {
+#navbar label {
   display: none;
   cursor: pointer;
   color: #fff;
@@ -728,7 +728,7 @@ hr {
 }
 
 @media (max-width: 768px) {
-  .navbar {
+  #navbar {
     height: 60px;
     justify-content: space-between;
     position: relative;
@@ -793,7 +793,7 @@ hr {
     color: var(--bg-color);
   }
 
-  .navbar label {
+  #navbar label {
     display: block;
     cursor: pointer;
     color: var(--main-color);

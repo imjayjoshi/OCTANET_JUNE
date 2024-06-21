@@ -1,3 +1,21 @@
+function scroller() {
+  document.addEventListener("DOMContentLoaded", function () {
+    window.addEventListener("scroll", function () {
+      var navbar = document.getElementById("navbar");
+      if (window.scrollY > 0) {
+        navbar.style.position = "fixed";
+        navbar.style.top = "0";
+        navbar.style.width = "100%";
+        navbar.style.zIndex = "1000";
+        navbar.style.backgroundColor = "#fff"; // Ensure the background is visible
+      } else {
+        navbar.style.position = "relative";
+        navbar.style.backgroundColor = "transparent"; // Reset to original state
+      }
+    });
+  });
+}
+
 function initializeScripts() {
   $(document).ready(function () {
     $(".agent-slider-area").owlCarousel({
@@ -68,8 +86,8 @@ function initializeScripts() {
       },
     });
   });
-
 }
 
 // Initialize all scripts
+scroller();
 initializeScripts();
